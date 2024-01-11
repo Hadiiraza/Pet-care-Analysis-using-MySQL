@@ -1,30 +1,37 @@
-```markdown
-# SQL_PetCareMastery
+# SQL PetCare Analysis
 
 ## Project Overview
 
-🚀 Welcome to SQL_PetCareMastery! This project showcases my journey in mastering database management and SQL through real-world scenarios.
+ This project showcases database management and SQL through real-world scenarios.
 
-## Key Features
+ ## Dataset information
+This project contains 4 different tables as follows.
 
-1. Joined Tables Like a Pro: Navigated through intricate relationships, connecting pet owners, pets, and procedures seamlessly.
+### Pet Owners
 
-2. Data Integrity with LEFT JOINs: Ensured completeness by including pets without owners and owners without pets.
+The `petowners` table contains information about the pet owners, such as owner ID, name, contact details, and other relevant information.
 
-3. Procedures Unveiled: Extracted detailed information on pets, their owners, and the procedures they underwent.
+### Pets
 
-4. Cost Analysis: Identified pets with procedures costing above the average, showcasing a deep understanding of data analytics.
+The `pets` table includes details about individual pets, including pet ID, owner ID, pet name, breed, and age.
 
-5. Pet Owner Insights: Delved into pet ownership, counting dogs per owner and evaluating spending patterns on procedures.
+### Procedure Details
 
+The `procedure_details` table provides information about various medical procedures available for pets, including procedure ID, description, and cost.
 
-## Technologies Used
+### Procedure History
 
-- MySQL
-- SQL
+The `procedure_history` table records the history of procedures performed on pets, capturing details such as procedure ID, pet ID, procedure date, and any additional relevant information.
 
 ## Learning Achievements
 
 - Developed complex SQL queries for diverse data scenarios.
 - Explored JOINs, CTEs, aggregations, and subqueries.
-- Analyzed and visualized pet data, enhancing problem-solving skills.
+- Analyzed pet data, enhancing problem-solving skills.
+
+## Technologies Used
+
+- MySQL
+  
+
+  
